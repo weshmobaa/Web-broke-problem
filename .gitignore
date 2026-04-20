@@ -1,8 +1,53 @@
-index.html
 
 
-<html lang="es">
-<head>
+
+
+# Gradle
+.gradle/
+build/
+
+# Local config
+local.properties
+
+# Logs
+*.log
+
+# Android Studio
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+*.iws
+*.ipr
+
+# Keystore
+*.jks
+*.keystore
+
+# Google Services
+google-services.json
+
+# Android profiling
+*.hprof
+
+# Mac
+.DS_Store
+
+# Node
+node_modules/
+
+# Env files
+.env
+.env.*
+
+# Vercel
+.vercel/
   <meta charset="UTF-8">
   <title>Mi proyecto</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
