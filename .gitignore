@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi proyecto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h1>Funciona 🚀</h1>
+  <p>Desplegado en Vercel correctamente.</p>
+</body>
+</html>
 # Gradle files
 .gradle/
 build/
@@ -32,3 +44,16 @@ google-services.json
 
 # Android Profiling
 *.hprof
+# Mac
+.DS_Store
+
+# Node (si hay frontend)
+node_modules/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel
